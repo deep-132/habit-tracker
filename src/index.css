@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+    --tw-gradient-from: #242323 var(--tw-gradient-from-position);
+    --tw-gradient-to: rgba(139, 140, 143, 0) var(--tw-gradient-to-position);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+     --tw-gradient-to: #a2afd6 var(--tw-gradient-to-position);
+}
